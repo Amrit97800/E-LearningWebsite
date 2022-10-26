@@ -24,6 +24,14 @@ def services(request):
     return render(request,'services.html')
 
 
+def reading(request):
+    return render(request,'reading.html')
+
+def listening(request):
+    return render(request,'listening.html')
+
+def writing(request):
+    return render(request,'writing.html')
 
 def contact(request):
     if request.method == "POST":
